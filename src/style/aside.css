@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+    font-family: "Poppins", sans-serif;
 }
+
 #container{
     width: 100vw;
     height: 100vh;
@@ -20,18 +23,17 @@
     grid-template-columns: 45% 50%;
 }
 aside{
-    background-color: green;
-    padding: 60px;
+    padding: 3.74rem;
 }
 #profile{
+    background-color: #130428;
     margin-left: auto;
-    border-radius: 20px;
-    background-color: aqua;
-    width: 300px;
+    border-radius: 1.25rem;
+    width: 18.75rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 1.75rem;
 
 
 }
@@ -39,41 +41,56 @@ aside{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 0.675rem;
+}
+#information span{
+    border: 1px solid #91e;
+    background-color: #130428;
+    border-radius: 0.675rem;
+    padding: 0.5rem;
+    color: #91e4f2;
+    margin-bottom: 1rem;
 }
 hr{
-    margin: 10px;
+    margin: 0.675rem;
     width: 90%;
-    color: #130428;
 }
 #information-contacts{
-    margin-top: 10px;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 1.5625rem;
 }
 #information-contacts img{
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
+}
+.information-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+}
+.information-text  span:first-child{
+   color: #91e4f2;
 }
 .information-info{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 
 }
 img{
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
     border-radius: 20px;
 }
 #links{
     display: flex;
-    gap: 10px;
-    justify-content: space-between;
+    justify-content: center;
+    gap:  0.700rem;
 }
 #links img {
-    width: 35px;
-    height: 35px;
+    width: 1.75rem;
+    height: 1.75rem;
 }
 
