@@ -3,9 +3,11 @@ main{
     overflow: auto;
 }
 #container-main{
-    margin-top: 80px;
+    margin-top: 50px;
     padding: 15px;
     border-radius: 20px;
-    width: 850px;
+    width: 900px;
     background-color: #130428;
+    box-shadow:  2px 1.5px 1.5px 1.5px rgba(128, 0, 255, 0.3);
+    
 }

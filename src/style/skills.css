@@ -2,6 +2,7 @@
 #skills{
     margin-top: 50px;
     text-align: center;
+    margin-bottom: 50px;
 }
 .name-span{
     color: aqua;
@@ -15,11 +16,13 @@
 
 }
 .skill{
+    width: 150px;
+    height: 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
     box-shadow: 0 6px 20px rgba(180, 90, 255, 0.3);
-    border-radius: 12px;
+    border-radius: 20px;
     padding: 20px;
     gap: 5px;
  
@@ -31,9 +34,12 @@
     box-shadow:  0 10px 25px rgba(128, 0, 255, 0.3)
   }
 .skill img{
+    padding: 0;
+    margin: 0;
     border: none;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
     
     
 }
@@ -44,4 +50,13 @@
     font-size: 18px;
     font-weight: bold;
     color: aliceblue;
+}
+.concluid{
+    border: 2px solid green;
+}
+.moment{
+    border: 2px solid yellow;
+}
+.future{
+    border: 2px solid red;
 }
