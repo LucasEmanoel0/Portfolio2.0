@@ -5,7 +5,6 @@
 
 Portfólio profissional moderno desenvolvido para mostrar meus projetos e habilidades como desenvolvedor.
 
-![Preview do Portfolio](https://i.imgur.com/placeholder.png) *(adicione uma screenshot real do seu projeto aqui)*
 
 ## ✨ Destaques
 
